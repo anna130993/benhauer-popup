@@ -12,19 +12,21 @@
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
+    color: #3a3a3a;
 }
 
 .form, 
-.thank-you{
+.thank-you {
+    align-items: center;
     background-color: #80b0b4;
-    padding: 40px;
-    color: #3a3a3a;
+    padding: 35px;
     font-weight: 900;
     letter-spacing: -1px;
     min-width: 280px;
     min-height: 600px;
     max-width: 600px;
     max-height: 600px;
+    overflow: auto;
 }
 
 header {
@@ -137,6 +139,8 @@ footer {
 
 .ty-title {
     font-weight: normal;
+    text-align: center;
+    justify-content: center;
 }
 
 .ty-name {
@@ -146,18 +150,6 @@ footer {
 
 .ty-text {
     text-align: center;
-    margin: 16px;
+    margin: 18px;
     letter-spacing: 0.2px;
-}
-
-/* MEDIA QUERIES */
-@media only screen and (min-width: 500px) {
-    main {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .main-input {
-        margin: 8px 24px 0;
-    }
 }
